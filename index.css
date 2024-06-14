@@ -1,0 +1,157 @@
+.Dashboard-img{
+    background-color: black; 
+    /* border: solid 2px black; */
+    height: 614px;
+    width: 100%;
+}
+.first-img{
+    position: fixed;
+    top: 66px;
+    width: 100%;
+    opacity: 50%;
+    z-index:2;
+    height: 614px;
+}
+
+.first-heading{
+    /* color: white; */
+    position: absolute;
+    top: 250px;
+    left: 560px;
+    color: white;
+    z-index: 4;
+}
+
+.first-searchbar{
+    position: absolute;
+    top: 320px;
+    left: 520px;
+    /* color: white; */
+    padding-left: 10px;
+    z-index: 4;
+    width: 540px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    /* outline: cyan; */
+    
+}
+
+.search-icon{
+    position:absolute;
+    
+    top: 320px;
+    left: 1056px; 
+    background-color: rgb(106, 119, 125);
+    color: white;
+    border: none;
+    border-radius:0px 4px 4px 0px ;
+    padding: 0px;
+    z-index: 4;
+    width: 40px;
+    height: 40px;
+}
+
+.cities{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 620px;
+    display: flex;
+}
+
+#major-cities{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    justify-content: center;
+}
+
+.city{
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    
+    top: 230px;
+    /* background-color: gray; */
+    /* height: 150px; */
+    width: 100%;
+}
+
+.size{
+    width: 120px;
+    height: 120px;
+    /* padding: 2px 2px 2px 2px; */
+    vertical-align:middle;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    
+}
+.dd{
+    position: relative;
+    /* background-color: white; */
+    box-shadow: 2px 2px 10px grey;
+    /* justify-content: center; */
+    top: -10px;
+    /* border: solid 2px black; */
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-right: 70px;
+    z-index:4;
+}
+@media only screen and (max-width: 800px){
+    .city{
+        display: block;
+    }
+    .dd{
+        position: relative;
+        left: 200px;
+        margin-top: 20px;
+    }
+}
+
+.footer{
+    background-color: rgb(53, 52, 52);
+    width:100%;
+    height: 200px;
+    top: 440px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    
+    
+}
+.footer > a{
+    position: relative;
+    font-size: 15px;
+    left: 400px;
+    /* display: block; */
+    flex-shrink: 1;
+    /* flex-wrap: wrap; */
+    color: white;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+@media only screen and (max-width:1200px) {
+    .footer > a{
+        position: relative;
+        left: 200px;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .footer > a{
+        position: relative;
+        left: 100px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .footer > a{
+        position: relative;
+        justify-content: left;
+    }
+}
